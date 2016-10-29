@@ -1,0 +1,16 @@
+{
+    "timeout":300,
+    "method": "rc4-md5",
+    "port_password":
+    {
+        "121": "::",
+        "4002": "4002",
+        "40003": "password3"
+    },
+    "_comment":
+    {
+        "121": "trk",
+        "40002": "lilei",
+        "40003": "mike"
+    }
+}
