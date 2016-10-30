@@ -1,0 +1,11 @@
+./configure \
+--prefix=/etc/nginx \
+--user=nginx \
+--group=nginx \
+--with-http_ssl_module \
+--with-http_flv_module \
+--with-http_gzip_static_module \
+--with-http_stub_status_module \
+--with-http_sub_module \
+--with-http_sub_module \
+--add-module=/root/nginx-1.11.5/ngx_http_substitutions_filter_module
