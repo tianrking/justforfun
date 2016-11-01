@@ -6,7 +6,7 @@
     "port_password":{
         "1949":{"protocol":"auth_sha1_v2", "password":"trk", "obfs":"http_simple", "obfs_param": "www.baidu.com"},
         "251":{"protocol":"origin", "password":"trk"},
-	"137":{"protocol":"auth_sha1", "password":"justfuckit", "obfs":"http_simple", "obfs_param": "wap.10086.cn" },
+	"137":{"protocol":"auth_sha1_v4", "password":"trk", "obfs":"http_simple", "obfs_param": "wap.10086.cn" },
 	"2500":{"protocol":"origin","password":"guojiahao2001A"},
 	"55555":{"protocol":"auth_sha1_v2", "password":"trk", "obfs":"http_simple", "obfs_param":
 "www.baidu.com"}
