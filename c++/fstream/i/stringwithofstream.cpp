@@ -5,11 +5,10 @@
 #include<string>
 using std::cin;
 using std::cout;
-//using std::ofstream;
 using std::ios_base;
 using std::string;
 using std::vector;
-using namespace std;
+using std::ofstream;
 int main(int argc,char *argv[])
 {
 	string filename;
