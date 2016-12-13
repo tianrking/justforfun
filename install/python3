@@ -1,0 +1,4 @@
+wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0rc1.tar.xz
+unxz zxvf P*3.6*tar.xz
+tar xvf P*3.6*.tar -C /home/
+rm -rf P*3.6*tar
