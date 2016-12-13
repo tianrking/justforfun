@@ -1,0 +1,3 @@
+wget https://sourceforge.net/projects/pcre/files/pcre/8.39/pcre-8.39.tar.gz
+tar zxvf pcre-8.39.tar.gz -C /home/
+rm -rf pcre-8.39.tar.gz
