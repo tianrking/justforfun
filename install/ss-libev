@@ -1,4 +1,4 @@
 apt-get install git -y 
 yum install git -y
 apt-get install --no-install-recommends build-essential autoconf libtool libssl-dev libpcre3-dev asciidoc xmlto -y
-git clone https://github.com/shadowsocks/shadowsocks-libev.git
+git clone https://github.com/shadowsocks/shadowsocks-libev.git /home/
