@@ -8,17 +8,18 @@ int main()
 	int ar[]={5,4,3,2};
         cout <<c<<"   "<<&c<<endl;
 //	auto lam= [=]()mutable->void { 
-//		//c=c*c;
+		//c=c*c;
 //		cout <<c<<"  "<<&c<<endl;};
 	//lam();
 	auto px=[=](int *a,int *b)->void { sort (a,b);};
 	
-	auto cd=[](int *arr)->int{int f=sizeof(arr)/sizeof(arr[1]);return f;};
-	int d=cd(ar);	
-	cout <<d;
+//	auto cd=[](int *arr)->int{int f=sizeof(arr)/sizeof(int);return f;};
+//	int f=cd(ar);	
+	int f= 4;
+	cout <<f;
 	
-//	px(ar,ar+f);
-//	for (int i : ar)
-//		cout <<i<<endl;
+	px(ar,ar+f);
+	for (int i : ar)
+		cout <<i<<endl;
 	return 0;
 }
