@@ -1,10 +1,10 @@
 #include<iostream>
 #include<vector>
 //	template <class t>
-	auto diyabs=[](double m)->double{double temp=m>0?(m):(-m);return temp;};
-	double aa;
-	double enter;
-double xd(double win_a,double win_b,double win_k)
+	auto diyabs=[](long double m)->long double{long double temp=m>0?(m):(-m);return temp;};
+	long double aa;
+	long double enter;
+long double xd(long double win_a,long double win_b,long double win_k)
 {
 	if(diyabs(win_a-win_b*win_b)<=win_k)
 		return win_b;
@@ -14,8 +14,8 @@ double xd(double win_a,double win_b,double win_k)
 int main()
 {
 	std::cin>>enter;
-	auto la=[=](double a,double b=1.0){
-	double win=xd(a,b,enter);
+	auto la=[=](long double a,long double b=1.0){
+	long double win=xd(a,b,enter);
 	return win;
 	};
 /*	auto lb=[&,enter](double a,double b=1.0){
