@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+<<<<<<< HEAD
 //	template <class t>
 	auto diyabs=[](long double m)->long double{long double temp=m>0?(m):(-m);return temp;};
 	long double aa;
@@ -30,3 +31,6 @@ int main()
 	std::cout<<aa<<std::endl;
 	return 0;
 }
+=======
+
+>>>>>>> be23f743929e5dccfad1fffaf88bf3b07bcea6bf
