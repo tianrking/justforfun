@@ -8,13 +8,12 @@
         "251":{"protocol":"origin", "password":"trk"},
 	"1101":{"protocol":"origin","password":"1101"},
 	"1102":{"protocol":"origin","password":"test"},
-	"137":{"protocol":"auth_sha1_v4", "password":"trk", "obfs":"http_simple", "obfs_param": "wap.ln.10086.cn" },
+	"523":{"protocol":"auth_aes128_sha1", "password":"trk", "obfs":"http_simple", "obfs_param":"wap.10086.cn"},
 	"2500":{"protocol":"origin","password":"guojiahao2001A"},
-	"55555":{"protocol":"auth_sha1_v2", "password":"share", "obfs":"http_simple", "obfs_param":
-"www.baidu.com"},
+	"55555":{"protocol":"auth_sha1_v2", "password":"share", "obfs":"http_simple", "obfs_param":"www.baidu.com"},
 	"412":{"protocol":"auth_sha1_v2", "password":"share", "obfs":"http_simple", "obfs_param":"www.baidu.com"}
     },
-    "timeout":300,
+    "timeout":500,
     "method":"rc4-md5",
     "protocol": "origin",
     "protocol_param": "",
