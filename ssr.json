@@ -4,11 +4,9 @@
     "local_address":"127.0.0.1",
     "local_port":1080,
     "port_password":{
-        "1949":{"protocol":"auth_sha1_v2", "password":"trk", "obfs":"http_simple", "obfs_param": "www.baidu.com"},
         "251":{"protocol":"origin", "password":"trk"},
 	"1101":{"protocol":"origin","password":"1101"},
 	"1102":{"protocol":"origin","password":"test"},
-	"523":{"protocol":"auth_aes128_sha1", "password":"trk", "obfs":"http_simple", "obfs_param":"wap.10086.cn"},
 	"2500":{"protocol":"origin","password":"guojiahao2001A"},
 	"55555":{"protocol":"auth_sha1_v2", "password":"share", "obfs":"http_simple", "obfs_param":"www.baidu.com"},
 	"81":{"protocol": "auth_aes128_sha1", "protocol_param": "64#1:trk,2:2,666:songxinyu","password": "share"},
