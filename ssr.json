@@ -4,7 +4,6 @@
     "local_address":"127.0.0.1",
     "local_port":1080,
     "port_password":{
-        "251":{"protocol":"origin", "password":"trk"},
 	"1101":{"protocol":"origin","password":"1101"},
 	"2500":{"protocol":"origin","password":"guojiahao2001A"},
 	"55555":{"protocol":"auth_sha1_v2", "password":"share", "obfs":"http_simple", "obfs_param":"www.baidu.com"},
