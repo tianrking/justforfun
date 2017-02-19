@@ -11,7 +11,7 @@
 	"412":{"protocol":"auth_sha1_v2", "password":"share", "obfs":"http_simple", "obfs_param":"www.iqiyi.com"}
     },
     "timeout":500,
-    "method":"rc4-md5",
+    "method":"chacha20",
     "redirect": "",
     "fast_open": true,
     "workers": 10
