@@ -1,1 +1,3 @@
 ss-server -s 0.0.0.0 -p 24 -k passwd -m chacha20-ietf-poly1305  -u --plugin obfs-server --plugin-opts "obfs=http" -6 &
+ss-server -s 0.0.0.0 -p 25 -k 25 -m chacha20-ietf --fast-open -u --plugin obfs-server --plugin-opts "obfs=http" -6 &
+ss-server -s 0.0.0.0 -p 26 -k 26 -m xchacha20-ietf-poly1305  --fast-open -u --plugin obfs-server --plugin-opts "obfs=http" -6 &
